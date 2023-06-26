@@ -1,0 +1,83 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.t_program {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.p_program {
+    /* background-image: url("./images/kiddo.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.t_theme {
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+}
+.p_theme {
+    /* background-image: url("./images/logobig.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    background-color: #FF8201;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+
+
+
+
+
+body {
+    margin: 0px;
+}
+.logobig {
+    float: right;
+}
+h3 {
+    color: #0536FC;
+    font-size: 16px;
+    font-family: Basis Grotesque Pro;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.big_h1 {
+    color: #000;
+    font-size: 57px;
+    font-family: Basis Grotesque Pro;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: -1.71px;
+    text-transform: uppercase;
+}
+p {
+    color: #000;
+    font-size: 16px;
+    font-family: Basis Grotesque Pro;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+}
+
+.button_f {
+    background-color: #0536FC;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Basis Grotesque Pro;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 35px 18.25px;
+    background-color: #0536FC;
+    width: 213px;
+    height: 55px;
+}
